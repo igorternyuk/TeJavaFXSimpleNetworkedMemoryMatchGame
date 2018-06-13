@@ -1,0 +1,33 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 13.06.2018, 10:28:22
+    Author     : igor
+*/
+.toggleButton {
+    -fx-focus-color: transparent;
+    -fx-text-fill: transparent;
+    -fx-font-size: 18px;
+}
+
+.toggleButton:selected {
+    -fx-text-fill: black;
+    -fx-background-color: transparent;
+}
+
+.toggleButton:disabled {
+    -fx-opacity: 1.0;
+}
+
+.op-match {
+    -fx-text-fill: red;
+    -fx-background-color: transparent;
+}
+
+.my-match {
+    -fx-text-fill: darkgreen;
+    -fx-background-color: transparent;
+}
